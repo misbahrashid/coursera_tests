@@ -1,0 +1,155 @@
+.mainheading{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.sec1{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 30.47%;
+margin-left: 25px;
+}
+.sec2{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 30.47%;
+margin-left: 25px;
+}
+.sec3{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 30.47%;
+margin-left: 25px;
+}
+
+.paragraph{
+	margin-left: 16px;
+	margin-top:  35px;
+	margin-right: 16px;
+    text-align: justify;
+	align-self: auto;
+	align-content: space-around;
+	float: right;
+	margin-top: 0px;
+	flex-wrap: wrap;
+}
+
+.heading{
+display:inherit;
+border: solid;
+color: black;
+height: 26px;
+width: 115px;
+float: right;
+margin-top: 0px;
+border-top-style: none;
+border-right-style: none;
+background-color: bisque;
+text-align: center;
+margin-bottom: 9px;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media only screen and (min-width: 992px) {
+  /* For desktop: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+	.mainheading{
+	text-align: center;
+	margin-bottom: 0px;
+}
+   .sec1{
+    border: solid;
+    border-color: black;
+    background-color:#C0BBBB;
+    float: left;
+    width: 88%;
+    margin-left: 40px;
+	margin-top: 20px;
+	height: 133px;
+}
+	.sec2{
+    border: solid;
+    border-color: black;
+    background-color:#C0BBBB;
+    float: left;
+    width: 88%;
+    margin-left: 40px;
+	margin-top: 20px;
+	height: 133px;
+}
+	.sec3{
+    border: solid;
+    border-color: black;
+    background-color:#C0BBBB;
+    float: left;
+    width: 88%;
+    margin-left: 40px;
+	margin-top: 20px;
+	height: 133px;
+}
+   .row:after {
+  content: "";
+  display: table;
+  clear: both;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  /* For Tablets: */
+  .mainheading{
+	text-align: center;
+	margin-bottom: 0px;
+}
+  .sec1{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 43.90%;
+margin-left: 25px;
+margin-top: 30px;
+}
+.sec2{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 43.90%;
+margin-left: 25px;
+margin-top: 30px;
+}
+.sec3{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 91.98%;
+margin-left: 25px;
+margin-top: 20px;
+}
+
+  .row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+}
