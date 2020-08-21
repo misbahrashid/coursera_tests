@@ -94,7 +94,30 @@ margin-bottom: 9px;
 
 @media only screen and (min-width: 992px) {
   /* For desktop: */
-  maxim
+  .sec1{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 30.47%;
+margin-left: 25px;
+}
+.sec2{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 30.47%;
+margin-left: 25px;
+}
+.sec3{
+border: solid;
+border-color: black;
+background-color:#C0BBBB;
+float: left;
+width: 30.47%;
+margin-left: 25px;
+}
   
 }
 @media only screen and (max-width: 767px) {
