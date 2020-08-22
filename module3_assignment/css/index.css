@@ -1,0 +1,49 @@
+.hide{
+	display: block;
+}
+
+.heading{
+	font-weight: 740;
+	margin-top:  18px;
+}
+
+.subheading{
+	text-align: center;
+	font-weight: 740;
+}
+
+.section{
+	margin-top: 40px;
+	background-color:#A39F9F;
+}
+
+.paragraph{
+	text-align: justify;
+	font-weight: 645;
+	margin-left: 22px;
+	margin-right: 22px;
+	
+}
+
+.style{
+	font-weight: 740;
+	font-size:30px;
+	color: black;
+	margin-bottom: 0px;
+	margin-bottom: 6px;
+}
+
+.color{
+	background-color: #A39F9F;
+	border: solid;
+    border-color: black;
+	border-right-style: none;
+	border-left-style: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .hide{
+	display: none;
+}
+	
+}
